@@ -31,7 +31,7 @@ function wrapAsync(fn) {
     };
 }
 
-// GET landing page or home
+// GET landing page
 app.get(
     "/",
     wrapAsync(async (req, res, next) => {
