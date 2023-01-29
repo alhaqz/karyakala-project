@@ -1,19 +1,9 @@
 const express = require("express");
-const wrapAsync = require("./WrapAsync");
+const adminsController = require("../controllers/admins");
+
 const router = express.Router();
 
-// GET login
-router.get(
-    "/login",
-    wrapAsync(async (req, res, next) => {
-        res.render();
-    })
-);
+router.get("/login", adminsController.getLogin);
+router.get("/dashboard", adminsController.getDashboard);
 
-// GET dashboard
-router.get(
-    "/dashboard",
-    wrapAsync(async (req, res, next) => {
-        res.render();
-    })
-);
+module.exports = router;

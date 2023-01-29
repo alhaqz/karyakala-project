@@ -1,13 +1,13 @@
 const express = require("express");
 const router = express.Router();
 
-const menuRoutes = require("./menu");
-const adminRoutes = require("./admin");
-const messageRoutes = require("./message");
+const menusRoutes = require("./menus");
+const adminsRoutes = require("./admins");
+const messagesRoutes = require("./messages");
 
-router.use("/", menuRoutes);
-router.use("/", adminRoutes);
-router.use("/", messageRoutes);
+router.use("/", menusRoutes);
+router.use("/", adminsRoutes);
+router.use("/", messagesRoutes);
 router.use("/", (req, res) => {
     res.status(200).json({
         message: "karyakala API server.",
