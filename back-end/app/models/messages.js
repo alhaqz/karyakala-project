@@ -13,10 +13,10 @@ const messageSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    // findingUs: {
-    //     type: String,
-    //     required: true,
-    // },
+    foundUs: {
+        type: String,
+        required: true,
+    },
     message: {
         type: String,
     },

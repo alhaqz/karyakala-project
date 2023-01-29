@@ -1,4 +1,5 @@
 const express = require("express");
+const wrapAsync = require("./WrapAsync");
 const router = express.Router();
 
 // GET login
