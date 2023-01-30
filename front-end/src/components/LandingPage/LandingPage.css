@@ -1,17 +1,4 @@
-<<<<<<< HEAD
-video {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  z-index: -1;
-}
-
 .hero-container {
-  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
-=======
-.hero-container {
->>>>>>> 7087960 (cek)
   height: 100vh;
   width: 100%;
   display: flex;
@@ -22,18 +9,6 @@ video {
   object-fit: contain;
 }
 
-<<<<<<< HEAD
-.hero-container > h1 {
-  color: #fff;
-  font-size: 100px;
-  margin-top: -100px;
-}
-
-.hero-container > p {
-  margin-top: 8px;
-  color: #fff;
-  font-size: 32px;
-=======
 .base-img {
   background: url('../../img/bg_lp.png') no-repeat;
   background-position: 100% 100%;
@@ -75,15 +50,10 @@ video {
   margin-top: 8px;
   color: #bfa300;
   font-size: 26px;
->>>>>>> 7087960 (cek)
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }
 
-<<<<<<< HEAD
-.hero-btns {
-  margin-top: 32px;
-=======
 .container {
   column-count: 2;
   display: flex;
@@ -109,7 +79,6 @@ video {
   display: flex;
   align-items: center;
   justify-content: flex-start;
->>>>>>> 7087960 (cek)
 }
 
 .hero-btns .btn {
@@ -121,11 +90,6 @@ video {
 }
 
 @media screen and (max-width: 960px) {
-<<<<<<< HEAD
-  .hero-container > h1 {
-    font-size: 70px;
-    margin-top: -150px;
-=======
   .hero-container h1 {
     font-size: 50px;
     /* margin-top: -150px; */
@@ -143,20 +107,10 @@ video {
     height: 100vh;
     width: 100%;
     background-size: 80%;
->>>>>>> 7087960 (cek)
   }
 }
 
 @media screen and (max-width: 768px) {
-<<<<<<< HEAD
-  .hero-container > h1 {
-    font-size: 50px;
-    margin-top: -100px;
-  }
-
-  .hero-container > p {
-    font-size: 30px;
-=======
   .hero-container h1 {
     font-size: 30px;
     /* margin-top: -100px; */
@@ -164,7 +118,6 @@ video {
 
   .hero-container p {
     font-size: 20px;
->>>>>>> 7087960 (cek)
   }
 
   .btn-mobile {

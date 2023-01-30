@@ -1,13 +1,6 @@
 import React from 'react';
 
 import './AboutUs.css';
-<<<<<<< HEAD
-
-function AboutUsPage() {
-  return (
-    <div className="hero-container">
-      <h1>This is About Us Page!</h1>
-=======
 import CardMedia from './CardMedia';
 import logo_yellow from '../../../img/logo_yellow.png';
 import logo_white from '../../../img/logo_white.png';
@@ -56,7 +49,6 @@ function AboutUsPage() {
         </div> */}
       </div>
       {/* <h1>This is About Us Page!</h1> */}
->>>>>>> 7087960 (cek)
     </div>
   );
 }

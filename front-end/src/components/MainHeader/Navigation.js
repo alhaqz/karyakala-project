@@ -2,11 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import logo_white from '../../img/logo_white.png';
-<<<<<<< HEAD
-=======
 import logo_yellow from '../../img/logo_yellow.png';
 import { Button } from '../Button/Button';
->>>>>>> 7087960 (cek)
 import './Navigation.css';
 
 const Navigation = (props) => {
@@ -35,15 +32,9 @@ const Navigation = (props) => {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-<<<<<<< HEAD
-            <img src={logo_white} className="logo" />
-            Karyakala
-            <i class="fab fa-typo3" />
-=======
             <img src={logo_yellow} className="logo" />
             Karyakala
             <i className="fab fa-typo3" />
->>>>>>> 7087960 (cek)
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -73,16 +64,12 @@ const Navigation = (props) => {
                 FAQ
               </Link>
             </li>
-<<<<<<< HEAD
-            <li className="nav-item">
-=======
             {/* <li className="nav-item">
               {button && (
                 <Button buttonStyle="btn--outline" path="/contact-us">
                   Contact Us
                 </Button>
               )}
->>>>>>> 7087960 (cek)
               <Link
                 to="/contact-us"
                 className="nav-links"
@@ -90,21 +77,6 @@ const Navigation = (props) => {
               >
                 Contact Us
               </Link>
-<<<<<<< HEAD
-            </li>
-
-            <li>
-              <Link
-                to="/sign-up"
-                className="nav-links-mobile"
-                onClick={closeMobileMenu}
-              >
-                Sign Up
-              </Link>
-            </li>
-          </ul>
-          {/* {button && <Button buttonStyle="btn--outline">SIGN UP</Button>} */}
-=======
             </li> */}
           </ul>
           {button && (
@@ -112,7 +84,6 @@ const Navigation = (props) => {
               Contact Us
             </Button>
           )}
->>>>>>> 7087960 (cek)
         </div>
       </nav>
     </>

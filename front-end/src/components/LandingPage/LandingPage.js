@@ -1,19 +1,11 @@
-<<<<<<< HEAD
-import React from 'react';
-
-=======
 import React, { Fragment } from 'react';
 import { Button } from '../Button/Button';
 import '../../App.css';
->>>>>>> 7087960 (cek)
 import './LandingPage.css';
 
 function LandingPage() {
   return (
     <div className="hero-container">
-<<<<<<< HEAD
-      <h1>This is Landing Page!</h1>
-=======
       <div className="base-img">
         <div className="bg-img">
           <div className="container">
@@ -39,7 +31,6 @@ function LandingPage() {
           </div>
         </div>
       </div>
->>>>>>> 7087960 (cek)
     </div>
   );
 }
