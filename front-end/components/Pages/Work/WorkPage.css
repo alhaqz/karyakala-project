@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 video {
   object-fit: cover;
   width: 100%;
@@ -8,6 +9,9 @@ video {
 
 .hero-container {
   /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+=======
+.work-container {
+>>>>>>> 7087960 (cek)
   height: 100vh;
   width: 100%;
   display: flex;
@@ -18,6 +22,7 @@ video {
   object-fit: contain;
 }
 
+<<<<<<< HEAD
 .hero-container > h1 {
   color: #fff;
   font-size: 100px;
@@ -27,16 +32,136 @@ video {
 .hero-container > p {
   margin-top: 8px;
   color: #fff;
+=======
+.work-container h1 {
+  font-size: 22px;
+  line-height: 125%;
+  /* margin-top: 12px; */
+}
+
+.bg-work {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  background-position: 100% 100%;
+  background-size: 70%;
+  background-color: #fff;
+}
+
+.container-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  object-fit: contain;
+}
+
+.img-work {
+  /* height: 80vh; */
+  width: 100%;
+}
+
+.work-container h1 {
+  color: #e3c30a;
+  font-size: 60px;
+  margin-top: 12px;
+  margin-left: 12px;
+  /* margin-top: -100px; */
+}
+
+.work-container p {
+  margin-top: 8px;
+  color: #e3c30a;
+>>>>>>> 7087960 (cek)
   font-size: 32px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }
 
+<<<<<<< HEAD
 .hero-btns {
   margin-top: 32px;
 }
 
 .hero-btns .btn {
+=======
+.float-container {
+  border: 3px solid #fff;
+  padding: 20px;
+}
+
+.float-child {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  border: 2px solid red;
+}
+
+.text-container {
+  border: 3px solid #fff;
+  padding: 20px;
+  height: 100%;
+}
+
+.text-child {
+  width: 80%;
+  float: right;
+  padding: 20px;
+  border: 2px solid red;
+}
+
+.text-logo {
+  width: 20%;
+  height: 11vh;
+  float: left;
+  padding: 20px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.float-container p {
+  font-size: 20px;
+  /* color: #fff; */
+  /* line-height: 125%; */
+  /* margin-top: 12px; */
+}
+
+.container-box {
+  column-count: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  width: 50%;
+  float: left;
+  margin-left: -40%;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text {
+  margin-left: 18px;
+  margin-bottom: 10px;
+  margin-right: 18px;
+}
+
+.work-btns {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.work-btns .btn {
+>>>>>>> 7087960 (cek)
   margin: 6px;
 }
 
@@ -45,13 +170,34 @@ video {
 }
 
 @media screen and (max-width: 960px) {
+<<<<<<< HEAD
   .hero-container > h1 {
     font-size: 70px;
     margin-top: -150px;
+=======
+  .work-container h1 {
+    font-size: 50px;
+    /* margin-top: -150px; */
+  }
+
+  .work-container p {
+    font-size: 15px;
+    margin-top: 0;
+  }
+
+  .container {
+    width: 40%;
+  }
+  .bg-work {
+    height: 100vh;
+    width: 100%;
+    background-size: 80%;
+>>>>>>> 7087960 (cek)
   }
 }
 
 @media screen and (max-width: 768px) {
+<<<<<<< HEAD
   .hero-container > h1 {
     font-size: 50px;
     margin-top: -100px;
@@ -59,6 +205,15 @@ video {
 
   .hero-container > p {
     font-size: 30px;
+=======
+  .work-container h1 {
+    font-size: 30px;
+    /* margin-top: -100px; */
+  }
+
+  .work-container p {
+    font-size: 20px;
+>>>>>>> 7087960 (cek)
   }
 
   .btn-mobile {

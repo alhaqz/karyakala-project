@@ -10,8 +10,12 @@
 .home,
 .work,
 .about-us,
+<<<<<<< HEAD
 .faq,
 .contact-us {
+=======
+.faq {
+>>>>>>> 7087960 (cek)
   display: flex;
   height: 90vh;
   align-items: center;
@@ -19,7 +23,19 @@
   font-size: 3rem;
 }
 
+<<<<<<< HEAD
 .services {
+=======
+.contact-us {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+/* .services {
+>>>>>>> 7087960 (cek)
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -35,6 +51,7 @@
   font-size: 100px;
 }
 
+<<<<<<< HEAD
 .sign-up {
   background-position: center;
   background-size: cover;
@@ -42,3 +59,6 @@
   color: #fff;
   font-size: 100px;
 }
+=======
+*/
+>>>>>>> 7087960 (cek)

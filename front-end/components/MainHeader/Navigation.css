@@ -10,7 +10,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
   background: #e3c30a;
+=======
+  background: #fff;
+>>>>>>> 7087960 (cek)
   padding: 0 2rem;
 }
 
@@ -23,7 +27,11 @@
 }
 
 .navbar-logo {
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: #e3c30a;
+>>>>>>> 7087960 (cek)
   justify-self: start;
   margin-left: 30px;
   cursor: pointer;
@@ -55,7 +63,11 @@
 }
 
 .nav-links {
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: #e3c30a;
+>>>>>>> 7087960 (cek)
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -64,12 +76,20 @@
 }
 
 .nav-links:hover {
+<<<<<<< HEAD
   border-bottom: 4px solid #fff;
+=======
+  border-bottom: 4px solid #e3c30a;
+>>>>>>> 7087960 (cek)
   transition: all 0.2s ease-out;
 }
 
 .fa-bars {
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: #e3c30a;
+>>>>>>> 7087960 (cek)
 }
 
 .nav-links-mobile {
@@ -118,7 +138,11 @@
   }
 
   .nav-links:hover {
+<<<<<<< HEAD
     background-color: #fff;
+=======
+    background-color: #e3c30a;
+>>>>>>> 7087960 (cek)
     color: #242424;
     border-radius: 0;
   }
@@ -142,7 +166,11 @@
   }
 
   .fa-times {
+<<<<<<< HEAD
     color: #fff;
+=======
+    color: #e3c30a;
+>>>>>>> 7087960 (cek)
     font-size: 2rem;
   }
 
@@ -155,14 +183,24 @@
     text-decoration: none;
     font-size: 1.5rem;
     background-color: transparent;
+<<<<<<< HEAD
     color: #fff;
     padding: 14px 20px;
     border: 1px solid #fff;
+=======
+    color: #e3c30a;
+    padding: 14px 20px;
+    border: 1px solid #e3c30a;
+>>>>>>> 7087960 (cek)
     transition: all 0.3s ease-out;
   }
 
   .nav-links-mobile:hover {
+<<<<<<< HEAD
     background: #fff;
+=======
+    background: #e3c30a;
+>>>>>>> 7087960 (cek)
     color: #242424;
     transition: 250ms;
   }
