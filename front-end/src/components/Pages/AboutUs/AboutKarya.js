@@ -19,4 +19,4 @@ function AboutKarya() {
   );
 }
 
-export default AboutKarya();
+export default AboutKarya;
