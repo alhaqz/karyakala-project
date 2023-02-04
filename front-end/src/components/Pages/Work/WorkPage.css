@@ -63,12 +63,15 @@
 }
 
 .float-child {
-  width: 50%;
+  width: 560%;
   float: left;
   padding: 20px;
   border: 2px solid red;
 }
 
+.float-child h1 {
+  font-size: 42px;
+}
 .text-container {
   border: 3px solid #fff;
   padding: 20px;

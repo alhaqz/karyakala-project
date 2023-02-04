@@ -17,14 +17,14 @@
 }
 
 .text-child {
-  width: 60%;
+  width: 80%;
   float: right;
   padding: 20px;
   border: 2px solid red;
 }
 
 .text-logo {
-  width: 20%;
+  width: 15;
   height: 11vh;
   float: left;
   padding: 20px;
@@ -33,7 +33,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 20%;
+  /* margin-left: 20%; */
 }
 
 .text_logo {

@@ -1,9 +1,8 @@
 import React from 'react';
 
 import './AboutUs.css';
-import CardMedia from './CardMedia';
-import logo_yellow from '../../../img/logo_yellow.png';
-import logo_white from '../../../img/logo_white.png';
+
+import AboutKarya from './AboutKarya';
 
 function AboutUsPage() {
   return (
@@ -23,32 +22,7 @@ function AboutUsPage() {
             </div>
           </div>
         </div>
-        {/* <div className="grid-container">
-          <div>
-            <div className="item1">
-              <CardMedia logo={logo_yellow} />
-            </div>
-            <div className="item1">
-              <CardMedia logo={logo_yellow} />
-            </div>
-            <div className="item1">
-              <CardMedia logo={logo_yellow} />
-            </div>
-          </div>
-          <div>
-            <div className="item1">
-              <CardMedia logo={logo_yellow} />
-            </div>
-            <div className="item1">
-              <CardMedia logo={logo_yellow} />
-            </div>
-            <div className="item1">
-              <CardMedia logo={logo_yellow} />
-            </div>
-          </div>
-        </div> */}
       </div>
-      {/* <h1>This is About Us Page!</h1> */}
     </div>
   );
 }

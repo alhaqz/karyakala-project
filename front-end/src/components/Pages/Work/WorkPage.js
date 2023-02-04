@@ -11,11 +11,29 @@ function WorkPage() {
       <div className="bg-work">
         <div className="float-container">
           <div className="float-child">
-            <h1>What we aim!</h1>
+            <h1>Bisnis yang Kami Sasar untuk Berkembang bersama Kami!</h1>
             <div className="containter-left">
-              <TextWork title={'title'} desc={'desc'} logo={logo_yellow} />
-              <TextWork title={'title'} desc={'desc'} logo={logo_yellow} />
-              <TextWork title={'title'} desc={'desc'} logo={logo_yellow} />
+              <TextWork
+                title={'UMKM'}
+                desc={
+                  'Pelaku usaha yang ingin meningkatkan kredibilitas dan branding bisnismu secara digital.'
+                }
+                logo={logo_yellow}
+              />
+              <TextWork
+                title={'StartUp'}
+                desc={
+                  'Perusahaan rintisan yang sedang berkembang dan membutuhkan produk digital guna meningkatkan brand awareness.'
+                }
+                logo={logo_yellow}
+              />
+              <TextWork
+                title={'Proyek Kewirausahaan'}
+                desc={
+                  'Membutuhkan produk digital untuk tugas akhir ataupun project kewirausahaan dalam bentuk website.Bisnis yang Kami Sasar untuk Berkembang bersama Kami!'
+                }
+                logo={logo_yellow}
+              />
             </div>
           </div>
           <div className="float-child">

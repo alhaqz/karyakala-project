@@ -8,7 +8,6 @@ import WorkPage from './components/Pages/Work/WorkPage';
 import AboutUsPage from './components/Pages/AboutUs/AboutUsPage';
 import FAQPage from './components/Pages/FAQ/FAQPage';
 import ContactUsPage from './components/Pages/ContactUs/ContactUsPage';
-import Home from './components/Pages/Home/Home';
 
 function App() {
   return (
@@ -20,7 +19,7 @@ function App() {
           <Route path="/work" element={WorkPage} />
           <Route path="/about-us" element={AboutUsPage} />
           <Route path="/FAQ" element={FAQPage} />
-          <Route path="/contact-us" element={ContactUsPage} />
+          <Route path="/contact-us" element={<ContactUsPage />} />
         </Routes>
       </Router>
     </>

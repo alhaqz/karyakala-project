@@ -1,0 +1,46 @@
+.card2-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-auto-rows: auto;
+}
+
+.card-about-container {
+  margin-top: 10vh;
+  height: 50vh;
+  width: 30vw;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  /* border: 2px solid red; */
+}
+.bg-color {
+  background-color: #e3c30a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  width: 16vw;
+  border-radius: 70px;
+  /* border: 2px solid red; */
+}
+
+.img-container {
+  margin-bottom: 0%;
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+
+.name-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+  /* border: 2px solid red; */
+}
+
+.name-container h1 {
+  font-size: 28px;
+  /* border: 2px solid red; */
+}
