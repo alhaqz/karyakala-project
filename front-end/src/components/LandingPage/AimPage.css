@@ -1,4 +1,4 @@
-.work-container {
+.aim2-container {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -9,13 +9,7 @@
   object-fit: contain;
 }
 
-.work-container h1 {
-  font-size: 22px;
-  line-height: 125%;
-  /* margin-top: 12px; */
-}
-
-.bg-work {
+.bg-aim {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -57,9 +51,28 @@
     'Lucida Sans', Arial, sans-serif;
 }
 
-.float-container {
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float-aim-container {
   border: 3px solid #fff;
   padding: 20px;
+}
+
+.float-aim-container h1 {
+  font-size: 48px;
+  line-height: 125%;
+  color: #e3c30a;
+  /* margin-top: 12px; */
 }
 
 .float-child {
@@ -72,6 +85,7 @@
 .float-child h1 {
   font-size: 42px;
 }
+
 .text-container {
   border: 3px solid #fff;
   padding: 20px;

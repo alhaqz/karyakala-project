@@ -13,3 +13,26 @@
   color: #e3c30a;
   font-size: 52px;
 }
+
+.FAQ-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10vh;
+  width: 40%;
+  height: 20vh;
+}
+
+.card-FAQ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 20vh;
+  margin: auto;
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}

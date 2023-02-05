@@ -1,0 +1,46 @@
+.purpose-container {
+  height: 80vh;
+}
+
+.purpose-container h1 {
+  font-size: 40px;
+  color: #e3c30a;
+}
+
+.column-purpose {
+  float: left;
+  width: 50%;
+}
+
+.column-purpose p {
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: auto;
+  margin-bottom: 16px;
+}
+
+.row-purpose {
+  margin-top: 7vh;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Clear floats after the columns */
+.row-purpose:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.img3 {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-purpose {
+  height: 30vh;
+}

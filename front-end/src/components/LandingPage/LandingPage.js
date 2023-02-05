@@ -17,14 +17,13 @@ function LandingPage() {
                 website perusahaan Anda kepada kami dengan jaminan kualitas
                 serta harga yang terjangkau.
               </p>
-              <p>Cocok bagi anda pegiat perusahaan, UMKM, dan bisnis.</p>
               <div className="hero-btns">
                 <Button
                   className="btns"
                   buttonStyle="btn--secondary"
                   path="/work"
                 >
-                  Learn more about us!
+                  Hubungi Kami
                 </Button>
               </div>
             </div>
@@ -35,4 +34,4 @@ function LandingPage() {
   );
 }
 
-export default LandingPage();
+export default LandingPage;

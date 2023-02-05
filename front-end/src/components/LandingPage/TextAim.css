@@ -1,0 +1,50 @@
+.aim-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid red;
+  padding: 20px;
+  height: 70vh;
+}
+
+.aim-child {
+  width: 80%;
+  height: 20vh;
+  padding: 20px;
+  margin: auto;
+  border: 3px solid green;
+  padding: 10px;
+  background-color: #e3c30a;
+  border-radius: 20px;
+}
+
+.aim-child h2 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.aim-child p {
+  /* margin-top: 8px; */
+  padding: 8px;
+}
+
+.aim-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 35vh;
+  padding: 20px;
+  border: 2px solid red;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.aim_logo {
+  width: 10vw;
+  margin: auto;
+}
