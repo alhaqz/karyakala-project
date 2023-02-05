@@ -61,21 +61,27 @@ function ContactUsPage() {
   };
 
   return (
-    <div className="hero-container">
-      {/* <h1>This is Contact Us Page!</h1> */}
-      <div className="form-container">
-        <form onSubmit={submitHandler}>
-          <h1>Contact Us</h1>
-          {inputs.map((input) => (
-            <FormInput
-              key={input.id}
-              {...input}
-              value={values[input.name]}
-              onChange={onChange}
-            />
-          ))}
-          <button>Submit</button>
-        </form>
+    <div className="contact-container">
+      <h1>Mari Diskusikan Permasalahan Bisnismu bersama Kami!</h1>
+      <div className="row-contact">
+        <div className="column-contact">
+          <h1>lol</h1>
+        </div>
+        <div className="column-contact">
+          <div className="form-container">
+            <form onSubmit={submitHandler}>
+              {inputs.map((input) => (
+                <FormInput
+                  key={input.id}
+                  {...input}
+                  value={values[input.name]}
+                  onChange={onChange}
+                />
+              ))}
+              <button>Submit</button>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   );

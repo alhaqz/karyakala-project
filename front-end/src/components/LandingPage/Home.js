@@ -6,6 +6,7 @@ import Purpose from './Purpose';
 import Product from './Product';
 import OurProduct from '../Pages/Work/OurProduct';
 import FAQPage from '../Pages/FAQ/FAQPage';
+import ContactUsPage from '../Pages/ContactUs/ContactUsPage';
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Purpose />
       <OurProduct />
       <FAQPage />
+      <ContactUsPage />
     </div>
   );
 }

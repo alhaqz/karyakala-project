@@ -1,7 +1,9 @@
 .form-input {
   display: flex;
   flex-direction: column;
-  width: 50vw;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
 }
 
 input {
