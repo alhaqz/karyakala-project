@@ -7,7 +7,7 @@ import AboutUsPage from './components/Pages/AboutUs/AboutUsPage';
 import FAQPage from './components/Pages/FAQ/FAQPage';
 import ContactUsPage from './components/Pages/ContactUs/ContactUsPage';
 import Home from './components/LandingPage/Home';
-import ProductPage from './components/Pages/Work/Product';
+import ProductPage from './components/Pages/Product/Product';
 
 function App() {
   return (

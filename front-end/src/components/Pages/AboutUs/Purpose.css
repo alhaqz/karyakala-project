@@ -1,8 +1,11 @@
 .purpose-container {
+  margin-top: 10vh;
   height: 80vh;
+  background-color: #fff;
 }
 
 .purpose-container h1 {
+  text-align: center;
   font-size: 40px;
   color: #e3c30a;
 }

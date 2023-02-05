@@ -12,6 +12,10 @@ function CardAbout({ img, name, desc }) {
         <h2>{name}</h2>
         <h3>{desc}</h3>
       </div>
+      <div className="socmed">
+        <button className="button2">IG</button>
+        <button className="button2">LI</button>
+      </div>
     </div>
   );
 }

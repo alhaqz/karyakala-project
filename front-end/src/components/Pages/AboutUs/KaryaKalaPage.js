@@ -13,26 +13,25 @@ function FAQPage() {
   return (
     <div className="about-us-container">
       <div className="bg-about-us">
-        <h1>Meet our team!</h1>
+        <h1>Di Balik Layar Karyakala</h1>
         <div className="row">
           <div className="column">
-            <CardAbout img={Adella} name={'Adella'} desc={'left'} />
+            <CardAbout img={Adella} name={'Adella'} desc={'Finance'} />
           </div>
           <div className="column">
-            <CardAbout img={Yudho} name={'Yudho'} desc={'mid'} />
+            <CardAbout img={Yudho} name={'Yudho'} desc={'Developer'} />
           </div>
           <div className="column">
-            <CardAbout img={Dimas} name={'Dimas'} desc={'right'} />
+            <CardAbout img={Dimas} name={'Dimas'} desc={'Developer'} />
+          </div>
+          <div className="column">
+            <CardAbout img={Sanyyah} name={'Sanyyah'} desc={'HR'} />
+          </div>
+          <div className="column">
+            <CardAbout img={Adella} name={'Elham'} desc={'Developer'} />
           </div>
         </div>
-        <div className="row">
-          <div className="column2">
-            <CardAbout img={Sanyyah} name={'Sanyyah'} desc={'left'} />
-          </div>
-          <div className="column2">
-            <CardAbout img={Adella} name={'Elham'} desc={'right'} />
-          </div>
-        </div>
+        <div className="row"></div>
       </div>
     </div>
   );

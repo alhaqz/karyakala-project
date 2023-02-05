@@ -7,40 +7,65 @@
 
 .card-about-container {
   margin-top: 10vh;
-  height: 50vh;
-  width: 30vw;
-  align-items: center;
-  justify-content: center;
-  display: grid;
   /* border: 2px solid red; */
 }
 .bg-color {
   background-color: #e3c30a;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 90%;
-  width: 16vw;
-  border-radius: 70px;
-  /* border: 2px solid red; */
+  text-align: center;
 }
 
 .img-container {
-  margin-bottom: 0%;
-  height: 100%;
-  width: 100%;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  object-fit: contain;
   /* border: 2px solid red; */
 }
 
 .name-container {
+  margin-top: 20px;
   display: grid;
   align-items: center;
   justify-content: center;
-  margin-top: -40px;
-  /* border: 2px solid red; */
+  width: 250px;
+  background-color: #ffed86;
+  border-radius: 6px;
 }
 
-.name-container h1 {
-  font-size: 28px;
-  /* border: 2px solid red; */
+.name-container h2 {
+  font-size: 24px;
+  text-align: center;
+}
+.name-container h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.socmed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid red;
+}
+
+.button2 {
+  width: 50px;
+  margin: 4px;
+  /* height: 100px; */
+}
+
+.socmed h2 {
+  display: inline;
+  text-align: center;
+  padding: 10px;
 }
