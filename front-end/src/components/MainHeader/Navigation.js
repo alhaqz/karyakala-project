@@ -42,12 +42,12 @@ const Navigation = (props) => {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Home
+                Beranda
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/work" className="nav-links" onClick={closeMobileMenu}>
-                Work
+                Produk
               </Link>
             </li>
             <li className="nav-item">
@@ -56,7 +56,7 @@ const Navigation = (props) => {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                About Us
+                Tentang Kami
               </Link>
             </li>
             <li className="nav-item">
@@ -64,24 +64,10 @@ const Navigation = (props) => {
                 FAQ
               </Link>
             </li>
-            {/* <li className="nav-item">
-              {button && (
-                <Button buttonStyle="btn--outline" path="/contact-us">
-                  Contact Us
-                </Button>
-              )}
-              <Link
-                to="/contact-us"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Contact Us
-              </Link>
-            </li> */}
           </ul>
           {button && (
             <Button buttonStyle="btn--primary" path="/contact-us">
-              Contact Us
+              Kontak
             </Button>
           )}
         </div>
