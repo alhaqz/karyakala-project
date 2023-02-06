@@ -11,10 +11,13 @@ function FormInput(props) {
   };
 
   return (
-    <div className="form-input">
+    <div
+      className={'form-input' + (inputProps.name === 'text' ? '-large' : '')}
+    >
       <label>{label}</label>
       <input
         {...inputProps}
+        // {()=> inputProps.name === 'text' && className={'form-input-large'} : ''}
         onChange={onChange}
         onBlur={focusHandler}
         onFocus={() => inputProps.name === 'text' && setIsFocused(true)}

@@ -21,7 +21,7 @@ function LandingPage() {
                 <Button
                   className="btns"
                   buttonStyle="btn--secondary"
-                  path="/work"
+                  path="/contact-us"
                 >
                   Hubungi Kami
                 </Button>
