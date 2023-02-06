@@ -6,7 +6,7 @@ function PortofolioPage() {
   return (
     <div className="porto-container">
       <h1>
-        Portofolio <br /> Coming Soon
+        Portofolio <br /> Segera Hadir
       </h1>
     </div>
   );

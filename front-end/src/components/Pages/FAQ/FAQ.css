@@ -1,38 +1,14 @@
 .FAQ-container {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-  object-fit: contain;
-}
-
-.about-us-container h1 {
-  color: #e3c30a;
-  font-size: 52px;
-}
-
-.FAQ-text {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  margin-top: 10vh;
-  width: 40%;
-  height: 20vh;
+  white-space: pre-line;
 }
 
-.card-FAQ {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 40%;
-  height: 20vh;
-  margin: auto;
-  border: 2px solid black;
-  padding: 10px;
-  background-color: #fff;
-  border-radius: 10px;
+.FAQ-container h1 {
+  /* color: #e3c30a; */
+  font-size: 42px;
+  text-align: center;
 }
